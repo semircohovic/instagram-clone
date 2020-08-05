@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Post from './Post';
 import './App.css';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
           src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
         />
       </div>
+      <Post />
     </div>
   );
 }
