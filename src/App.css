@@ -4,9 +4,9 @@
 
 .app {
   background-color: #fafafa;
-  height: 100vh;
+ 
 }
-.app__headerImage {
+.app__header {
   object-fit: contain; 
   padding: 20px;
   background-color: white;
