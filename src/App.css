@@ -8,14 +8,33 @@
 }
 
 .app__header {
-  object-fit: contain;
   padding: 20px;
   background-color: white;
   border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
   /* ovo je napravi pravi dimenziju loga */
+}
+
+.app__posts {
+  padding: 20px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.app__postsRight {
+  margin-left: 30px;
+
+}
+
+.app__headerImage {
+  object-fit: contain;
 }
 
 .app__signup {
   display: flex;
   flex-direction: column;
+
 }
